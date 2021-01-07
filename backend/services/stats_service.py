@@ -477,3 +477,7 @@ class StatsService:
             Task.task_status == TaskStatus.BADIMAGERY.value
         ).count()
         project.save()
+
+    @staticmethod
+    def get_task_stats():
+        pass
